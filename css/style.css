@@ -1,0 +1,17 @@
+.custom-padding-margin {
+  padding: 20px;
+  /* Adjust padding */
+  margin: 20px;
+  /* Adjust margin */
+}
+
+
+/* Ensures the body takes the full height of the viewport and is scrollable */
+html,
+body {
+  height: 100%;
+  overflow-y: auto;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
+  /* Enables smooth touch scrolling */
+}
